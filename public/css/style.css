@@ -1,0 +1,216 @@
+/* ---------------------------HOME---------------------------------------------- */
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 0.2rem;
+    border-style: solid;
+    border-left: 0;
+    border-right: 0;
+    padding-top: 0;
+    position: sticky;
+    z-index:  !important 99;
+    top: 5.4rem;
+    height: 4rem;
+
+
+}
+
+.discription {
+    padding-left: 3rem;
+    padding-right: 5rem;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.userlogin button,
+.adminlogin button {
+    margin: 2rem;
+    text-align: center;
+    font-size: large;
+
+}
+
+.formcontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+
+a:link {
+    color: black;
+}
+
+
+a {
+    color: black;
+}
+
+.sidenav a {
+    display: block;
+    block-size: 3rem;
+    color: black;
+}
+
+
+
+.blog_table {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+td,
+th {
+    padding: 1rem;
+
+}
+
+.header,
+.row {
+
+    margin-right: 5rem;
+    margin-left: 12rem;
+}
+
+
+
+/* ---------------------------HOME---------------------------------------------- */
+
+
+/* _____________________________AREA____________________________________________ */
+
+.area {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.sidenav {
+    border-right: 0.2rem solid black;
+
+    height: 100%;
+    top: 9.5rem;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    overflow-x: hidden;
+
+}
+
+.navcontent {
+    font-size: larger;
+}
+
+.userform {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+#bloglist {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-bottom: 0.1rem solid black;
+    border-top: 0.1rem solid black;
+    margin-left: 0.5rem;
+
+}
+
+#bloglist:hover {
+    background-color: rgb(244, 125, 82);
+}
+
+button:hover {
+    background-color: rgb(244, 125, 82);
+}
+
+
+
+
+
+/* _____________________________AREA____________________________________________ */
+
+th,
+tr,
+td {
+    font-size: larger;
+    border: 0.1rem solid black;
+}
+
+th {
+    background-color: rgb(244, 125, 82);
+}
+
+
+.blog_table {
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.textclip {
+    white-space: nowrap;
+    overflow: auto;
+    text-overflow: clip ellipsis;
+    max-width: 40rem;
+}
+
+.pt-4,
+.py4 {
+    padding-top: 0rem;
+}
+
+.heading {
+    background-color: rgb(152, 152, 152);
+}
+
+
+/* ______----------------------------------NEW---------------------------_________ */
+.desc {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.blogarea {
+    display: flex;
+    flex-direction: row;
+}
+
+/* ______----------------------------------NEW---------------------------_________ */
+
+.new {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navbar {
+    /* position: fixed; */
+    top: 0;
+    position: sticky;
+    z-index: 1;
+}
+
+body {
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/004/674/077/small/empty-pastel-pink-color-studio-table-room-background-product-display-with-copy-space-for-display-of-content-design-banner-for-advertise-product-on-website-vector.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
